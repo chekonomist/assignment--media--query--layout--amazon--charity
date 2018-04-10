@@ -176,9 +176,22 @@ h6 {
   font-size: 24px;
   color: green; }
 
+.title-box {
+  display: flex;
+  flex-wrap: wrap; }
+
+.top-banner {
+  width: 100%; }
+  @media screen and (min-width: 500px) {
+    .top-banner {
+      width: 50%; } }
+
 .top-slogan {
-  margin: 20px;
-  text-align: center; }
+  width: 100%; }
+  @media screen and (min-width: 500px) {
+    .top-slogan {
+      width: 50%;
+      margin-top: 50px; } }
 
 .profiles-container {
   display: flex;

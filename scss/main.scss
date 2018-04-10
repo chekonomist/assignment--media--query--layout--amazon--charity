@@ -1,6 +1,9 @@
 @import "./imports/_normalize.scss";
 
-*{ box-sizing: border-box }
+*{
+  box-sizing: border-box
+
+}
 
 img {
    width: 100%;
@@ -22,10 +25,25 @@ h6{
   color: green;
 }
 
-.top-slogan{
-  margin: 20px;
-  text-align: center;
+.title-box{
+  display: flex;
+  flex-wrap: wrap;
 }
+  .top-banner{
+    width: 100%;
+
+    @media screen and (min-width: 500px){
+      width: 50%;
+    }
+  }
+  .top-slogan{
+    width: 100%;
+
+    @media screen and (min-width: 500px){
+      width: 50%;
+      margin-top: 50px;
+      }
+   }
 
 .profiles-container{
   display: flex;
